@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF",
+            "compilerPath": "${config:idf.toolsPathWin}\\tools\\xtensa-esp-elf\\esp-13.2.0_20240530\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+            "compileCommands": "${config:idf.buildPath}/compile_commands.json",
+            "includePath": [
+                "E:\\tools_esp\\esp_idf/components/**",
+                "E:\\tools_esp\\esp_idf**",
+                "${config:idf.espIdfPathWin}/components/**",
+                "${workspaceFolder}/**",
+                "E:/tools_esp/esp_idf/components/esp_driver_gpio/include",
+                "E:/tools_esp/esp_idf/components/freertos/FreeRTOS-Kernel-SMP/include",
+                "E:/tools_esp/esp_idf/components/freertos/config/include/freertos",
+                "${workspaceFolder}/Application/GPIO",
+                "E:/tools_esp/esp_idf/components/esp_driver_gpio/include/driver",
+                "${workspaceFolder}",
+                "E:/tools_esp/esp-c3/project-c3/Application/GPIO",
+                "E:/tools_esp/esp_idf/components/esp_event/include/**",
+                "E:/tools_esp/esp_idf/components/esp_event/include",
+                "E:\\tools_esp\\esp_idf\\components\freertos\\FreeRTOS-Kernel-SMP\\include\\freertos**",
+                "E:/tools_esp/esp_idf/components/freertos/FreeRTOS-Kernel-SMP/include/freertos/**"
+            ],
+            "browse": {
+                "path": [
+                    "E:\\tools_esp\\esp_idf/components/**",
+                    "${config:idf.espIdfPathWin}/components",
+                    "${workspaceFolder}",
+                    "E:/tools_esp/esp_idf/components/esp_event/include**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
