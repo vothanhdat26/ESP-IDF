@@ -1,4 +1,4 @@
-#include "GPIO/GPIO.h"
+#include "GPIO.h"
 namespace GPIO
 {
     // esp_err_t GpioInput::_init(const gpio_num_t pin, const bool activeLow)
